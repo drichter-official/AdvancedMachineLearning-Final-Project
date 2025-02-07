@@ -1,0 +1,48 @@
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                     Feedback to Final Project                                    │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+Student Names: Daniel Richter, Petrus Salminen
+
+Summary of the Approach
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+They use a U-Net, comparing different backbones for multiclass segmentation of satellite images in
+an area around Frankfurt am Main.
+
+They use a categorical focal loss to reduce the impact of the class imbalance, and evaluate their
+models with the Jaccard Index and Categorical Accuracy.
+They optimize their hyperparameters with a grid search in a pilot experiment.
+
+Segmentation results overall look very good, the best models reach a categorical accuracy of 91%,
+or a mean Jaccard Index of 76% respectively.
+
+Evaluation of Approach and Report
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Your report presents sufficient background research and significant effort to understand and clean
+your datasets. You go into enough detail on the methods you used, while remaining concise, and you
+present a number of interesting experiments you performed.
+
+Your results look promising, and you visualize them well. However, I think they can also be a little
+bit hard to gauge. It would be better if you showed the plain image, prediction and ground truth next
+to each other, rather than just the predictions of different models overlaid on the image.
+
+I would also have liked to see some random samples from your final models, rather than just the
+evaluation on a single cherry-picked image. You could also have analyzed how the model generalizes
+to areas in other countries, or continents, to evaluate overfit. Ideally, you should also write
+a few sentences, quantitatively comparing your final results to that of existing literature.
+
+I find it a little unfortunate that you dropped your proposal of combining U-Net CNNs with Swin
+Transformers for improved road segmentation. This leaves the methods you use a little vanilla, but
+this is not necessarily a bad thing considering the scope of the project.
+
+You also do not go into particular detail on the quality of your segmentations, overall. You could
+have shown a confusion matrix here, to allow readers to get a better sense of which classes are still
+not recognized well.
+
+Final Grade
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Daniel: 1.7
+Petrus: 1.7

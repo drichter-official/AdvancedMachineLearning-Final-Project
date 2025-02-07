@@ -1,0 +1,36 @@
+┌──────────────────────────────────────────────────────────────────────────────────────────────────┐
+│                                     Feedback to Exercise 05                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+Handed in as: Daniel_Richter__Petrus_Salminen-2022-07-05-1750-ID-30009b3e-d7b7-4b9c-be9a-a28cd43f5b3b.zip
+
+Great, thanks for naming the file correctly.
+
+Task 1                                                                                   [Max: 40.0]
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+[Proposal 1]
+
+Topic: Segmenting Satellite images into Roads, Forests, Buildings, ...
+
+Interesting: Yes
+
+Feasibility: Yes. Existing papers are promising, the students want to combine methods from two papers.
+
+Recommend: Yes (LK and UK)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+[Proposal 2]
+
+Topic: Reconstructing CT scans from undersampled sinograms
+
+Interesting: Yes
+
+Feasibility: Somewhat feasible. Dataset is huge, and still requires significant cleaning. Papers
+work with synthetic data, slices of 3D ellipsoids. Real-world relevance of synthetic data is
+questionable, but results look promising.
+
+Recommend: Yes (LK)
+Not so satisfactory without access to real data. (UK)
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
