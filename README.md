@@ -1,9 +1,11 @@
 # **Satellite Image Segmentation using U-Net Neural Networks**
 
-
 **Authors:** Petrus Salminen, Daniel Richter  
-**Institution:** Karls-Ruprecht-Universität Heidelberg
-**Year:** 2021 
+
+**Institution:** Karls-Ruprecht-Universität Heidelberg  
+
+**Year:** 2021  
+
 **Grade:** 1.7 (German Grading Scale)  
 
 ---
