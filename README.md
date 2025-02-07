@@ -21,9 +21,10 @@ This repository contains the final project for the **Advanced Machine Learning**
 ## **Results**
 
 ### **Satellite Image Before and After Segmentation:**
-![Before and After](sat.png, bo128.png)
-![Segmented Image](bo128.png)
-
+<div style="display: flex; flex-direction: row;">
+  <img src="sat.png" alt="Satellite Image" style="width: 5cm; margin-right: 10px;">
+  <img src="bo128.png" alt="Segmented Image" style="width: 5cm;">
+</div>
 
 ---
 
